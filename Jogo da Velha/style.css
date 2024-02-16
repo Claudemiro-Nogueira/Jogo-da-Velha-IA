@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(116, 158, 145);
+}
+
+h1, h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+table{
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+td{
+    background-image: none;
+    transition: 0.3s;
+}
+
+td:hover{
+    background-color: rgba(88, 99, 99, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+}
+
+td:active{
+    background-image: none;
+}
